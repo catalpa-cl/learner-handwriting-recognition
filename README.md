@@ -1,8 +1,8 @@
 # learner-handwriting-recognition
 
-This repository comprises the Transcription Guidelines for Learner Handwritings while Retaining Orthographic Errors, the IAA-Analysis and the Converter as described in the paper Preserving the Authenticity of Handwritten Learner Language: Annotation Guidelines for Creating Transcripts Retaining Orthographic Features.
+This repository comprises the Transcription Guidelines for Learner Handwritings while Retaining Orthographic Errors, the IAA-Analysis and the Converter as described in the paper _Preserving the Authenticity of Handwritten Learner Language: Annotation Guidelines for Creating Transcripts Retaining Orthographic Features_.
 
-It further comprises the German Spelling Error Generator as described in Recognizing Learner Handwriting Retaining Orthographic Errors for Enabling Fine-Grained Error Feedback.
+It further comprises the German Spelling Error Generator as described in _Recognizing Learner Handwriting Retaining Orthographic Errors for Enabling Fine-Grained Error Feedback_.
 
 # Terms of Use & Citation
 This research may be used for non-commercial research purpose only. If you publish material based on this database - please refer to the information of the following papers:
