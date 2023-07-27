@@ -1,0 +1,17 @@
+# name	linenumber	status	text	comment
+Originaltext-GYM-1_1-001.png	1	ok	In the {m}agical kingdom, W{h}iskers made f{r}{i}ends
+Originaltext-GYM-1_1-001.png	2	ok	with a brave dragon named {S+s}parky and {<a} clever fairy
+Originaltext-GYM-1_1-001.png	3	ok	named T{w}inkle. T{o+a}gether, they embarked on exciting
+Originaltext-GYM-1_1-001.png	4	ok	adventures, #### solving mysteries
+Originaltext-GYM-1_1-001.png	5	dis	and ### {helping othe{r}s in n{e}ed.} But one day, an evil	erased and written with another pen
+Originaltext-GYM-1_1-001.png	6	ok	sorceress{-}appeared, t{h+a}reatening# to #####
+Originaltext-GYM-1_1-001.png	7	ok	steal all the magic from the kingdom!
+Originaltext-GYM-1_1-001.png	8	err	###
+Originaltext-GYM-1_1-002.png	1	ok	Whi#{<s}kers, Sparky, and Twinkle{🙂} knew they
+Originaltext-GYM-1_1-002.png	2	ok	had to stop her. #They used their unique talents
+Originaltext-GYM-1_1-002.png	3	ok	and wor{k}ed as a team to outsmart
+Originaltext-GYM-1_1-002.png	4	ok	the sor{c|}eress and protect the m{a}gic
+Originaltext-GYM-1_1-002.png	5	ok	of the kingdom. {insert1 *} and friendship,
+Originaltext-GYM-1_1-002.png	6	ok	they {d}efeated the sorceress, {a}nd the
+Originaltext-GYM-1_1-002.png	7	ok	kingdom was safe on#ce again.
+Originaltext-GYM-1_1-002.png	8	ok	{insert1 * W{i}th b{<r}avery}
