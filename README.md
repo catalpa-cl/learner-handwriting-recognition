@@ -15,3 +15,13 @@ Christian Gold, Ronja Laarmann-Quante, Torsten Zesch. 2023. Preserving the Authe
 
 Christian Gold, Ronja Laarmann-Quante, Torsten Zesch. 2023. Recognizing Learner Handwriting Retaining Orthographic Errors for Enabling Fine-Grained Error Feedback. Innovative Use of NLP for Building Educational Applications (BEA) Workshop at ACL.
 [Link to Publication](https://aclanthology.org/2023.bea-1.28/)
+
+
+# Converter
+
+You can test run the Converter_Transcript4HWR from console with: <br>
+```python Converter_Transcript4HWR.py -i src/test_data.txt -o result/test_data_result_4HWR.txt```
+
+
+You can test run the Converter_Transcript4ContinuousText from console with: <br>
+```python Converter_Transcript4ContinuousText.py -i src/test_data.txt -o result/test_data_result_4ContinuousText.txt```
