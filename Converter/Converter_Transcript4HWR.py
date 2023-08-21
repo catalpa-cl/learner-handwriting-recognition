@@ -1,5 +1,5 @@
 """
-Converter_Transcrip4HWR.py
+Converter_Transcript4HWR.py
 
 Author: Christian Gold
 Date: June, 2023
@@ -24,7 +24,7 @@ import os
 #additional library:
 import pyparsing
 
-
+# replace the first character with the second character of tuple to reduce the number of characters
 replacement_chars = [["‘", "'"],
                      ['“', '"'],
                      ['”', '"'],
@@ -32,12 +32,14 @@ replacement_chars = [["‘", "'"],
                      ['…', '...'],
                      ['→', '>'],
                      ['€', 'E']]
+
 word_chars = "'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzäöüÄÖÜß"
 
 #global variables for meta analysis:
 dictionary = []
 charlist = ''
 char_occ = []
+
 
 def get_file_paths(input_path, output_path, file_ext):
     """
@@ -137,12 +139,6 @@ def meta_analyse(text):
             char_occ.append(1)
         else:
             char_occ[charlist.find(text[i])] += 1
-
-    return 0
-
-def meta_write(path):
-
-
 
     return 0
 
@@ -258,7 +254,7 @@ def get_innerExpression(text):
     elements = pyparsing.originalTextFor(pyparsing.nestedExpr('{', '}')).searchString(text)
     for element in elements:
         if '{' in element[0]:
-            result = replace_innerExpresion(get_innerExpression(element[0][1:-1]))
+            result = replace_innerExpression(get_innerExpression(element[0][1:-1]))
             loc = text.find(element[0])
             bis = loc+len(element[0])+1
             text = text[:loc] + text[loc:bis].replace(element[0], result) + text[bis:]
@@ -266,7 +262,7 @@ def get_innerExpression(text):
     return text
 
 
-def replace_innerExpresion(text):
+def replace_innerExpression(text):
     if len(text) == 0:
         print('invalid text length: zero')
         return text
